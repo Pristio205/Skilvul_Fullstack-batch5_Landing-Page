@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://i.ibb.co/1ZKVS8G/logo-removebg-preview.png" type="image/png">
+    <title>Landing page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <Header>
+        <nav>
+            <a href="#">
+                <img src="https://i.ibb.co/1ZKVS8G/logo-removebg-preview.png" alt="GreenWaste"/>
+                <h1>GreenWaste</h1> 
+            </a>
+            
+            <ul>
+                <li>Home</li>
+                <li>Solution</li>
+                <li>Forum</li>
+                <a href="https://skilvul.com" id="link">
+                <li>Skilvul</li>
+                </a>
+            </ul>
+            <div id="button-container">
+                <a href="#"><button id="register-button">Register</button></a>
+                <a href="#"><button id="login-button">Login</button></a>
+            </div>
+        </nav>
+    </Header>
+
+    <div id="hero-section">
+        <div class="container">
+            <div id="hero-section-judul">
+                <h1>Ayo Jadilah Pahlawan Lingkungan Bersama Kami!</h1>
+            </div>
+            <div id="hero-section-deskripsi">
+                <p id="description">
+                    Dengan setiap tindakan kecil, kita bisa menjadi pahlawan bagi lingkungan. Bergabunglah dengan kami di GreenWaste dan mulailah perjalanan Anda menuju keberlanjutan dan pelestarian lingkungan. 
+                </p>
+            </div>
+            <div>
+                <a href="https://forms.gle/knPo3iqm8FpyKhjc6">
+                    <button id="hero-section-button">
+                        Gabung Sekarang
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="content1-judul-container">
+            <h1>Tentang Kami</h1>
+            <p>Misi kami untuk lingkungan yang lebih baik</p>
+        </div>
+        <div class="content1-menu1-container">
+            <div class="content1-submenu1-container">
+                <p>
+                    "Kami adalah pionir dalam menghadapi tantangan meningkatnya volume limbah rumah tangga dan pabrik. Di GreenWaste, kami mendedikasikan diri untuk menyediakan solusi yang inovatif dan edukatif bagi individu, rumah tangga, dan bisnis untuk menghadapi permasalahan lingkungan yang mendesak."
+                </p>
+            </div>
+            <div class="content1-submenu2-container">
+                <img src="https://i.ibb.co/x2V1Nfh/tentang-kami.webp" alt="Tentang Kami">
+            </div>    
+        </div>
+    </div>
+
+    <div id="category-wrapper">
+        <div class="content2-judul-container">
+            <h1>Kenapa Memilih GreenWaste?</h1>
+        </div>
+        
+        <div id="card-container">
+            <div class="card">
+                <img src="https://i.ibb.co/qk1Gf60/SAMPAH-1-removebg-preview.png" alt="">
+                <h2>Solusi Pengolahan Limbah</h2>
+                <p>kami menyediakan solusi komprehensif untuk pengeloaan limbah yang efisien dan berkelanjutan</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co/t8x0cms/OIP-3-removebg-preview.png" alt="">
+                <h2>Informasi Terbaru</h2>
+                <p>Terus memperbarui diri dengan perkembangan terkini dalam pengelolaan limbah, teknologi hijau, dan isu-isu lingkungan terbaru</p>
+                <a href="">Read more</a>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co/pjrV8HM/OIP-2-removebg-preview.png" alt="">
+                <h2>Video Tutorial</h2>
+                <p>Pelajari langkah-langkah praktis dalam mengelola limbah Anda melalui koleksi video tutorial kami</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co/jWfJzrK/OIP-5-removebg-preview.png" alt="">
+                <h2>Forum</h2>
+                <p>Temukan tempat untuk berdiskusi, berbagi pengetahuan, dan terhubung dengan sesama anggota komunitas</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="form-wrap">
+        <div class="join-wrapper">
+            <div>
+               <p>Contact Us!</p>
+            </div>
+        </div>
+    
+        <div>
+        <form id="form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name"/>
+
+            <label for="city">Kota:</label>
+            <input type="text" id="city"/>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"/>
+            
+            <label for="zip-code">Kode Pos:</label>
+            <input type="number" id="zip-code"/>
+        
+            <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+            <input type="checkbox" id="status"/>
+
+            <button type="submit" id="submit-form">Submit</button>
+            <div id="warning"></div>
+        </form>
+        </div> 
+    </div>
+
+    <footer>
+        <p>Hak Cipta &copy; 2023 GreenWaste</p>
+    </footer>
+</body>
+</html>
